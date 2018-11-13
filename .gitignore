@@ -1,0 +1,8 @@
+# Jupyter Checkpoints
+.ipynb_checkpoints
+
+# Model
+model.bin
+
+# VSCode Configuration
+.vscode
