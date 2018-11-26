@@ -8,7 +8,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.manifold import TSNE
 
-keywords = ['orange', 'heart', 'ebola', 'flu', 'smoke', 'diabetes']
+keywords = ['leukaemia', 'dengue', 'ebola', 'flu', 'cancer', 'diabetes']
 similar_words = {search_term: [item[0] for item in model.wv.most_similar([search_term], topn = 5)]
                   for search_term in keywords}
 print(similar_words)
